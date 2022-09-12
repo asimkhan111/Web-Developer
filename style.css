@@ -1,0 +1,85 @@
+body{
+    background-image: url("img/grunge-paint-background_1409-1337.webp");
+    color: #555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin:0
+}
+#main-header{
+    background-color: coral;
+    color:white
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+#navbar{
+    background-color: rgb(7, 6, 6);
+    color:white;
+}
+ #navbar ul{
+    list-style: none;
+    padding:0;
+}
+#navbar li{
+
+    display: inline;
+}
+#navbar a{
+    color: #f4f4f4;
+    text-decoration:none;
+    font-size: 15px;
+    padding-right:15px
+}
+#showcase{
+    
+    min-height:300px ;
+    text-align:center;
+    margin-bottom: 30px;
+}
+#showcase h1{
+    background-image: url("img/hero-img_copy.jpg");
+    color:aqua;
+    line-height: 1.5cm;
+    padding:30px ;
+    
+    
+}
+#main{
+    /*border:2px solid red;*/
+    width:70%;
+    box-sizing: border-box;
+    float:left;
+    padding:0 45px;
+    color: black;
+    line-height: 0.5cm;
+}
+#sidebar{
+   /* border:2px solid blueviolet;*/
+    width:30%;
+    float: right;
+    box-sizing: border-box;
+    padding:10px;
+    background-color: #333;
+    color:white;
+    
+}
+#footer{
+    background-color:#333 ;
+    color: #f4f4f4;
+    text-align: center;
+    padding:16px;
+
+}
+@media (max-width:600px){
+    #main{
+        width:100%;
+        float:none;
+         }
+         #sidebar{
+            width:100%;
+            float:none;
+         }
+
+}
